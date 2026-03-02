@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:witherflesh" },
+  "matter": [
+    { "type": "replication:living", "amount": 5 },
+    { "type": "replication:organic", "amount": 5 }
+  ]
+}

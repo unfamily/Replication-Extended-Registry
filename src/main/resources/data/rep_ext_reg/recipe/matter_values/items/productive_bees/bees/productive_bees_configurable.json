@@ -1,0 +1,14 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "productivebees:spawn_egg_configurable_bee" },
+  "matter": [
+    { "type": "replication:earth", "amount": 2 },
+    { "type": "replication:organic", "amount": 8 },
+    { "type": "replication:living", "amount": 12 },
+	{ "type": "replication:nether", "amount": 2 },
+	{ "type": "replication:ender", "amount": 2 },
+	{ "type": "replication:metallic", "amount": 2 },
+	{ "type": "replication:precious", "amount": 2 },
+	{ "type": "replication:quantum", "amount": 2 }
+  ]
+}

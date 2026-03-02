@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:brass_casing"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 21
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 12
+    },
+    {
+      "type": "replication:precious",
+      "amount": 6
+    }
+  ]
+}

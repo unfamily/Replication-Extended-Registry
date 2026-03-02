@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:dragon_heart"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 80
+    },
+    {
+      "type": "replication:living",
+      "amount": 40
+    },
+    {
+      "type": "replication:nether",
+      "amount": 160
+    },
+    {
+      "type": "replication:ender",
+      "amount": 220
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 140
+    },
+    {
+      "type": "replication:precious",
+      "amount": 200
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 180
+    }
+  ]
+}

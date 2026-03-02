@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "reliquary:mob_charm"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 30
+    },
+    {
+      "type": "replication:living",
+      "amount": 30
+    }
+  ]
+}

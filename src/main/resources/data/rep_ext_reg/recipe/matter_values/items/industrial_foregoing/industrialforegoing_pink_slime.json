@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "industrialforegoing:pink_slime"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 5
+    },
+    {
+      "type": "replication:organic",
+      "amount": 15
+    },
+    {
+      "type": "replication:living",
+      "amount": 5
+    }
+  ]
+}

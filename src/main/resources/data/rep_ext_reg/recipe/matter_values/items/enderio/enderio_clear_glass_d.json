@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:clear_glass_d"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 4
+    },
+    {
+      "type": "replication:precious",
+      "amount": 4
+    }
+  ]
+}

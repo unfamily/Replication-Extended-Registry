@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:netherite_backtank"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 27
+    },
+    {
+      "type": "replication:nether",
+      "amount": 14
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 53
+    },
+    {
+      "type": "replication:precious",
+      "amount": 247
+    }
+  ]
+}

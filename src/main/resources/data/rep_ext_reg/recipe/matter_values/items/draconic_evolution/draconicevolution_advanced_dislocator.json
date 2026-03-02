@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:advanced_dislocator"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 60
+    },
+    {
+      "type": "replication:living",
+      "amount": 5
+    },
+    {
+      "type": "replication:nether",
+      "amount": 20
+    },
+    {
+      "type": "replication:ender",
+      "amount": 60
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 120
+    },
+    {
+      "type": "replication:precious",
+      "amount": 70
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 5
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:prescient_powder"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:ender",
+      "amount": 1
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 3
+    },
+    {
+      "type": "replication:precious",
+      "amount": 6
+    }
+  ]
+}

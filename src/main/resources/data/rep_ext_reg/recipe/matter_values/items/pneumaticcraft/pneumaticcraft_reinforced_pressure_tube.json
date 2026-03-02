@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "pneumaticcraft:reinforced_pressure_tube"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 30
+    },
+    {
+      "type": "replication:organic",
+      "amount": 5
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 40
+    },
+    {
+      "type": "replication:precious",
+      "amount": 10
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:draconic_relay_crystal"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 110
+    },
+    {
+      "type": "replication:organic",
+      "amount": 25
+    },
+    {
+      "type": "replication:living",
+      "amount": 45
+    },
+    {
+      "type": "replication:nether",
+      "amount": 95
+    },
+    {
+      "type": "replication:ender",
+      "amount": 105
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 420
+    },
+    {
+      "type": "replication:precious",
+      "amount": 120
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 60
+    }
+  ]
+}

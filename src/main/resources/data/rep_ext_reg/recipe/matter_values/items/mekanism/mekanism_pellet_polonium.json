@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mekanism:pellet_polonium"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 8
+    },
+    {
+      "type": "replication:precious",
+      "amount": 8
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 2
+    }
+  ]
+}

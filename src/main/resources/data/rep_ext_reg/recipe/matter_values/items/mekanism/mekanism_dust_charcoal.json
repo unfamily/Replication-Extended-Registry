@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mekanism:dust_charcoal"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 2
+    },
+    {
+      "type": "replication:organic",
+      "amount": 1
+    },
+    {
+      "type": "replication:living",
+      "amount": 1
+    }
+  ]
+}

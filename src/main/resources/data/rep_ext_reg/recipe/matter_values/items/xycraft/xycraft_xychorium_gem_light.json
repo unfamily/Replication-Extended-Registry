@@ -1,0 +1,10 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "xycraft_world:xychorium_gem_light" },
+  "matter": [
+    { "type": "replication:earth", "amount": 1 },
+    { "type": "replication:organic", "amount": 1 },
+	{ "type": "replication:ender", "amount": 1 },
+	{ "type": "replication:precious", "amount": 4 }
+  ]
+}

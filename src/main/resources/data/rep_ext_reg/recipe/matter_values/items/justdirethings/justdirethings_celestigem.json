@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "justdirethings:celestigem"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 400
+    },
+    {
+      "type": "replication:organic",
+      "amount": 120
+    },
+    {
+      "type": "replication:living",
+      "amount": 40
+    },
+    {
+      "type": "replication:nether",
+      "amount": 30
+    },
+    {
+      "type": "replication:ender",
+      "amount": 30
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 200
+    },
+    {
+      "type": "replication:precious",
+      "amount": 280
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 60
+    }
+  ]
+}

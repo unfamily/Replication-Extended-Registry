@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create_dragons_plus:blaze_upgrade_smithing_template"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 14
+    },
+    {
+      "type": "replication:living",
+      "amount": 14
+    },
+    {
+      "type": "replication:nether",
+      "amount": 14
+    }
+  ]
+}

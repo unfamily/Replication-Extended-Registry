@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "xycraft_machines:resin_ball" },
+  "matter": [
+    { "type": "replication:earth", "amount": 1 },
+    { "type": "replication:organic", "amount": 2 }
+  ]
+}

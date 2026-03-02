@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:small_chaos_frag"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 20
+    },
+    {
+      "type": "replication:living",
+      "amount": 5
+    },
+    {
+      "type": "replication:nether",
+      "amount": 15
+    },
+    {
+      "type": "replication:ender",
+      "amount": 25
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 25
+    },
+    {
+      "type": "replication:precious",
+      "amount": 30
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 15
+    }
+  ]
+}

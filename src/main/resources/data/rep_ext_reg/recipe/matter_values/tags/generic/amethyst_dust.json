@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "c:dusts/amethyst" },
+  "matter": [
+    { "type": "replication:earth", "amount": 1 },
+    { "type": "replication:precious", "amount": 4 }
+  ]
+}

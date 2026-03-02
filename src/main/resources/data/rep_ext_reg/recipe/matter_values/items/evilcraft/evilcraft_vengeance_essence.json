@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "evilcraft:vengeance_essence"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 20
+    },
+    {
+      "type": "replication:organic",
+      "amount": 30
+    },
+    {
+      "type": "replication:living",
+      "amount": 20
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 25
+    }
+  ]
+}

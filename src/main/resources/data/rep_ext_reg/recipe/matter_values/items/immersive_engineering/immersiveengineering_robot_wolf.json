@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "immersiveengineering:robot_wolf"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 19
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 61
+    },
+    {
+      "type": "replication:precious",
+      "amount": 37
+    }
+  ]
+}

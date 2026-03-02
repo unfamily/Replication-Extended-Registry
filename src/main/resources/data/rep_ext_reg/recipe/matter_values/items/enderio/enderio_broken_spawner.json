@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:broken_spawner"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 20
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 24
+    }
+  ]
+}

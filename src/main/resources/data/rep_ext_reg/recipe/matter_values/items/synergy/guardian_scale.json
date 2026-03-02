@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:silverfish_dust" },
+  "matter": [
+    { "type": "replication:living", "amount": 1 },
+    { "type": "replication:organic", "amount": 1 }
+  ]
+}

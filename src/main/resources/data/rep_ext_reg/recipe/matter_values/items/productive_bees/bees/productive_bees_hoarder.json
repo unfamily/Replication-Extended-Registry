@@ -1,0 +1,11 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "productivebees:spawn_egg_hoarder_bee" },
+  "matter": [
+    { "type": "replication:earth", "amount": 1 },
+    { "type": "replication:organic", "amount": 4 },
+    { "type": "replication:living", "amount": 12 },
+	{ "type": "replication:metallic", "amount": 2 },
+    { "type": "replication:nether", "amount": 1 }
+  ]
+}

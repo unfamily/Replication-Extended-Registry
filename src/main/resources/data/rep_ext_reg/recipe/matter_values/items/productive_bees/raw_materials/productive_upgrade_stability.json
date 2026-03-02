@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "productivelib:upgrade_stability" },
+  "matter": [
+    { "type": "replication:earth", "amount": 11 },
+    { "type": "replication:organic", "amount": 4 },
+	{ "type": "replication:living", "amount": 7 },
+	{ "type": "replication:precious", "amount": 144 },
+	{ "type": "replication:ender", "amount": 2 },
+	{ "type": "replication:quantum", "amount": 1 }
+  ]
+}

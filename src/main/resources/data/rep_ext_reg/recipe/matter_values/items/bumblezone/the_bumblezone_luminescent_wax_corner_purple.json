@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "the_bumblezone:luminescent_wax_corner_purple"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 8
+    },
+    {
+      "type": "replication:organic",
+      "amount": 8
+    },
+    {
+      "type": "replication:living",
+      "amount": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:potato_cannon"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 11
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 12
+    },
+    {
+      "type": "replication:precious",
+      "amount": 3
+    }
+  ]
+}

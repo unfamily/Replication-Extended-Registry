@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:solid_biofuel"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 13
+    },
+    {
+      "type": "replication:precious",
+      "amount": 17
+    }
+  ]
+}

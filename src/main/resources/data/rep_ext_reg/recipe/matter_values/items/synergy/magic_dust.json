@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:magic_dust" },
+  "matter": [
+    { "type": "replication:precious", "amount": 18 },
+    { "type": "replication:metallic", "amount": 15 }
+  ]
+}

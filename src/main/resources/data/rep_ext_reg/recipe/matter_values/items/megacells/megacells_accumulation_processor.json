@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "megacells:accumulation_processor"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 22
+    },
+    {
+      "type": "replication:ender",
+      "amount": 2
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 22
+    },
+    {
+      "type": "replication:precious",
+      "amount": 16
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 2
+    }
+  ]
+}

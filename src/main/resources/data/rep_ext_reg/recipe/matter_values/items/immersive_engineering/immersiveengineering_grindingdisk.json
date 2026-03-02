@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "immersiveengineering:grindingdisk"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 17
+    },
+    {
+      "type": "replication:organic",
+      "amount": 14
+    }
+  ]
+}

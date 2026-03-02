@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "iceandfire:dread_shard"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 30
+    },
+    {
+      "type": "replication:living",
+      "amount": 30
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 10
+    }
+  ]
+}

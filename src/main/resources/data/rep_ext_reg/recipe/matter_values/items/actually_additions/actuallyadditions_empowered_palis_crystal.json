@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "actuallyadditions:empowered_palis_crystal"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 20
+    },
+    {
+      "type": "replication:precious",
+      "amount": 50
+    }
+  ]
+}

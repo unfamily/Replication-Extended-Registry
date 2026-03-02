@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "powah:charged_snowball"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 6
+    }
+  ]
+}

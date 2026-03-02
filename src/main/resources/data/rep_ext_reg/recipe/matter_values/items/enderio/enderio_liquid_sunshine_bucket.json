@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:liquid_sunshine_bucket"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 45
+    },
+    {
+      "type": "replication:nether",
+      "amount": 20
+    },
+    {
+      "type": "replication:ender",
+      "amount": 10
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 40
+    },
+    {
+      "type": "replication:precious",
+      "amount": 25
+    }
+  ]
+}

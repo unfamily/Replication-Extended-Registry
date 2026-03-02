@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "deeperdarker:gloomy_cactus"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 2
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 2
+    }
+  ]
+}

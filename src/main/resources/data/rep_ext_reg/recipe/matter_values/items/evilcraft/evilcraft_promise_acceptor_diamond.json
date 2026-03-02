@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "evilcraft:promise_acceptor_diamond"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:organic",
+      "amount": 35
+    },
+    {
+      "type": "replication:living",
+      "amount": 35
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 35
+    },
+    {
+      "type": "replication:precious",
+      "amount": 20
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 10
+    }
+  ]
+}

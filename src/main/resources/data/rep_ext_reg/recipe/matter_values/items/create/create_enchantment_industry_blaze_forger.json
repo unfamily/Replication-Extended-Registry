@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create_enchantment_industry:blaze_forger"
+  },
+  "matter": [
+    {
+      "type": "replication:nether",
+      "amount": 12
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 330
+    }
+  ]
+}

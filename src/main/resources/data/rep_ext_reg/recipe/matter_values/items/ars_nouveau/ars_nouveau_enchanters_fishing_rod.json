@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:enchanters_fishing_rod"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 15
+    },
+    {
+      "type": "replication:organic",
+      "amount": 15
+    },
+    {
+      "type": "replication:precious",
+      "amount": 10
+    }
+  ]
+}

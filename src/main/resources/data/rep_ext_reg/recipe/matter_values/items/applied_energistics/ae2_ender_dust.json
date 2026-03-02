@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:ender_dust"
+  },
+  "matter": [
+    {
+      "type": "replication:ender",
+      "amount": 1
+    }
+  ]
+}

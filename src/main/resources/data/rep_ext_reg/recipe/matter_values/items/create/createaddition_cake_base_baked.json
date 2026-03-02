@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "createaddition:cake_base_baked"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 11
+    },
+    {
+      "type": "replication:organic",
+      "amount": 17
+    }
+  ]
+}

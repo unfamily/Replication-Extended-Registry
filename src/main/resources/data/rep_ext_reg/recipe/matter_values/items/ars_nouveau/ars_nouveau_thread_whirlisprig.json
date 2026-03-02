@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:thread_whirlisprig"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 15
+    },
+    {
+      "type": "replication:organic",
+      "amount": 15
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:ion_thruster"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 11
+    },
+    {
+      "type": "replication:organic",
+      "amount": 5
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 70
+    },
+    {
+      "type": "replication:precious",
+      "amount": 110
+    }
+  ]
+}

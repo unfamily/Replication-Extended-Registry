@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mahoutsukai:fae_essence"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 10
+    },
+    {
+      "type": "replication:living",
+      "amount": 10
+    }
+  ]
+}

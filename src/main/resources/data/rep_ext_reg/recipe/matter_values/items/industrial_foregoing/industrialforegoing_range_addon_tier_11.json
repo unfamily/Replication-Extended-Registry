@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "industrialforegoing:range_addon_tier_11"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 25
+    },
+    {
+      "type": "replication:precious",
+      "amount": 40
+    }
+  ]
+}

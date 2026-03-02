@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:fluix_crystal"
+  },
+  "matter": [
+    {
+      "type": "replication:living",
+      "amount": 4
+    },
+    {
+      "type": "replication:precious",
+      "amount": 12
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 1
+    }
+  ]
+}

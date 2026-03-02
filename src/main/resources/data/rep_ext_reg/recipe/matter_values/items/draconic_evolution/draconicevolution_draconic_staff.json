@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:draconic_staff"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 280
+    },
+    {
+      "type": "replication:living",
+      "amount": 120
+    },
+    {
+      "type": "replication:nether",
+      "amount": 200
+    },
+    {
+      "type": "replication:ender",
+      "amount": 360
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 780
+    },
+    {
+      "type": "replication:precious",
+      "amount": 620
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 40
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:wyvern_sword"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 120
+    },
+    {
+      "type": "replication:living",
+      "amount": 25
+    },
+    {
+      "type": "replication:nether",
+      "amount": 60
+    },
+    {
+      "type": "replication:ender",
+      "amount": 90
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 360
+    },
+    {
+      "type": "replication:precious",
+      "amount": 240
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 5
+    }
+  ]
+}

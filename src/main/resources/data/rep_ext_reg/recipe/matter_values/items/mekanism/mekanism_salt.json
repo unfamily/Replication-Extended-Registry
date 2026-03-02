@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mekanism:salt"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 4
+    }
+  ]
+}

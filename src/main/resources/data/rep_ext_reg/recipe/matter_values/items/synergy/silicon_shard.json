@@ -1,0 +1,7 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:silicon_shard" },
+  "matter": [
+    { "type": "replication:earth", "amount": 1 }
+  ]
+}

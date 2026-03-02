@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "immersiveengineering:hemp_fiber"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 17
+    },
+    {
+      "type": "replication:organic",
+      "amount": 14
+    }
+  ]
+}

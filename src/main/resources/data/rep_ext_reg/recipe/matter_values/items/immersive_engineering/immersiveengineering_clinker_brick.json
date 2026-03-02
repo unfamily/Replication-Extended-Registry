@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "immersiveengineering:clinker_brick"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 16
+    },
+    {
+      "type": "replication:organic",
+      "amount": 16
+    }
+  ]
+}

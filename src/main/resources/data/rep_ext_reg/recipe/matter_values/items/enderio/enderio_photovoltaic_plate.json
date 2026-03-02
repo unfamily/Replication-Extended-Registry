@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:photovoltaic_plate"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:organic",
+      "amount": 2
+    },
+    {
+      "type": "replication:living",
+      "amount": 1
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 4
+    },
+    {
+      "type": "replication:precious",
+      "amount": 8
+    }
+  ]
+}

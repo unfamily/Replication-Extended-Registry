@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:logic_processor_press"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 81
+    }
+  ]
+}

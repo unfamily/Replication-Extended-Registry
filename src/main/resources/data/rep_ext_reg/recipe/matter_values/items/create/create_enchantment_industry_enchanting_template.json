@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create_enchantment_industry:enchanting_template"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 180
+    },
+    {
+      "type": "replication:organic",
+      "amount": 90
+    },
+    {
+      "type": "replication:living",
+      "amount": 45
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "c:dusts/diamond" },
+  "matter": [
+    { "type": "replication:precious", "amount": 30},
+    { "type": "replication:metallic", "amount": 30}
+  ]
+}

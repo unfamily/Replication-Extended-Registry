@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "cataclysm:sandstorm_in_a_bottle"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 40
+    },
+    {
+      "type": "replication:organic",
+      "amount": 40
+    },
+    {
+      "type": "replication:living",
+      "amount": 40
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 20
+    },
+    {
+      "type": "replication:precious",
+      "amount": 20
+    }
+  ]
+}

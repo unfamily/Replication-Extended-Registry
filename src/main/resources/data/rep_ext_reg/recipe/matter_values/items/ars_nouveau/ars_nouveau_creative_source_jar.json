@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:creative_source_jar"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 1100000
+    },
+    {
+      "type": "replication:organic",
+      "amount": 1100000
+    },
+    {
+      "type": "replication:living",
+      "amount": 1100000
+    },
+    {
+      "type": "replication:nether",
+      "amount": 1100000
+    },
+    {
+      "type": "replication:ender",
+      "amount": 1100000
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 1100000
+    },
+    {
+      "type": "replication:precious",
+      "amount": 1100000
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 1100000
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:bombegranate_pod"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 4
+    },
+    {
+      "type": "replication:organic",
+      "amount": 4
+    }
+  ]
+}

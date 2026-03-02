@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "advanced_ae:quantum_alloy_plate"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 420
+    },
+    {
+      "type": "replication:nether",
+      "amount": 80
+    },
+    {
+      "type": "replication:ender",
+      "amount": 1900
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 1950
+    },
+    {
+      "type": "replication:precious",
+      "amount": 2500
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 650
+    }
+  ]
+}

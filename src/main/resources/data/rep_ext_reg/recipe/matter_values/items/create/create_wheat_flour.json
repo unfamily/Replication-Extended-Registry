@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:wheat_flour"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 8
+    }
+  ]
+}

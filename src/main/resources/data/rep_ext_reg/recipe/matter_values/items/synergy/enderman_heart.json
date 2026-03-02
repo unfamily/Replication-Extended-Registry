@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:enderman_heart" },
+  "matter": [
+    { "type": "replication:ender", "amount": 3 },
+    { "type": "replication:organic", "amount": 6 },
+    { "type": "replication:quantum", "amount": 1 }
+  ]
+}

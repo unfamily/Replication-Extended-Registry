@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "c:dusts/quartz" },
+  "matter": [
+    { "type": "replication:precious", "amount": 4},
+    { "type": "replication:nether", "amount": 2}
+  ]
+}

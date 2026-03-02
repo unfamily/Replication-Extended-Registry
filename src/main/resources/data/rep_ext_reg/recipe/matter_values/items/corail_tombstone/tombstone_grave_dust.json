@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "tombstone:grave_dust"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 31
+    },
+    {
+      "type": "replication:organic",
+      "amount": 17
+    },
+    {
+      "type": "replication:living",
+      "amount": 4
+    }
+  ]
+}

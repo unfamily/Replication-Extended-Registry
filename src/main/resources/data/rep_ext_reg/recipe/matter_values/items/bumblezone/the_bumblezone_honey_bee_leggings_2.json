@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "the_bumblezone:honey_bee_leggings_2"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 40
+    },
+    {
+      "type": "replication:organic",
+      "amount": 24
+    },
+    {
+      "type": "replication:living",
+      "amount": 20
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 6
+    },
+    {
+      "type": "replication:precious",
+      "amount": 2
+    }
+  ]
+}

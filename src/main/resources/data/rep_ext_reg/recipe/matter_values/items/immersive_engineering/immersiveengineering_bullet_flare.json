@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "immersiveengineering:bullet_flare"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 8
+    },
+    {
+      "type": "replication:organic",
+      "amount": 23
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 23
+    },
+    {
+      "type": "replication:precious",
+      "amount": 13
+    }
+  ]
+}

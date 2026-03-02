@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:andesite_casing"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 4
+    }
+  ]
+}

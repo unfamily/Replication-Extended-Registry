@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "actuallyadditions:empowered_oil_bucket"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:organic",
+      "amount": 20
+    },
+    {
+      "type": "replication:living",
+      "amount": 5
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 40
+    },
+    {
+      "type": "replication:precious",
+      "amount": 20
+    }
+  ]
+}

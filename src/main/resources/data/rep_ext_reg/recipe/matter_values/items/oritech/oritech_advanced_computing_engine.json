@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:advanced_computing_engine"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 9
+    },
+    {
+      "type": "replication:organic",
+      "amount": 5
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 11
+    },
+    {
+      "type": "replication:precious",
+      "amount": 11
+    }
+  ]
+}

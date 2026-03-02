@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:stabilized_spawner"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 120
+    },
+    {
+      "type": "replication:organic",
+      "amount": 5
+    },
+    {
+      "type": "replication:living",
+      "amount": 15
+    },
+    {
+      "type": "replication:nether",
+      "amount": 40
+    },
+    {
+      "type": "replication:ender",
+      "amount": 60
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 180
+    },
+    {
+      "type": "replication:precious",
+      "amount": 80
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 10
+    }
+  ]
+}

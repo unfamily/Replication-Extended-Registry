@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "supplementaries:safe"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 32
+    },
+    {
+      "type": "replication:nether",
+      "amount": 18
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 56
+    },
+    {
+      "type": "replication:precious",
+      "amount": 77
+    }
+  ]
+}

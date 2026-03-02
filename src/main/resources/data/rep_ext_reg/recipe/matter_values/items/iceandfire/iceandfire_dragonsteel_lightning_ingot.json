@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "iceandfire:dragonsteel_lightning_ingot"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 9
+    },
+    {
+      "type": "replication:living",
+      "amount": 9
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 9
+    },
+    {
+      "type": "replication:precious",
+      "amount": 9
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "productivebees:amber" },
+  "matter": [
+    { "type": "replication:earth", "amount": 4 },
+    { "type": "replication:organic", "amount": 4 }
+  ]
+}

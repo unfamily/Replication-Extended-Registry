@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "appflux:energy_processor"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 60
+    },
+    {
+      "type": "replication:nether",
+      "amount": 20
+    },
+    {
+      "type": "replication:ender",
+      "amount": 60
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 90
+    },
+    {
+      "type": "replication:precious",
+      "amount": 120
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 10
+    }
+  ]
+}

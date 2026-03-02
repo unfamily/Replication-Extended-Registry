@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "advanced_ae:shattered_singularity"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 300
+    },
+    {
+      "type": "replication:ender",
+      "amount": 422
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 260
+    },
+    {
+      "type": "replication:precious",
+      "amount": 422
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 60
+    }
+  ]
+}

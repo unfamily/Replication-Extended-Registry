@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:fluix_pickaxe"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 2
+    },
+    {
+      "type": "replication:organic",
+      "amount": 1
+    },
+    {
+      "type": "replication:nether",
+      "amount": 1
+    },
+    {
+      "type": "replication:precious",
+      "amount": 4
+    }
+  ]
+}

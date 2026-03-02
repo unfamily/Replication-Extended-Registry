@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:venom_sac" },
+  "matter": [
+    { "type": "replication:living", "amount": 2 },
+    { "type": "replication:organic", "amount": 2 }
+  ]
+}

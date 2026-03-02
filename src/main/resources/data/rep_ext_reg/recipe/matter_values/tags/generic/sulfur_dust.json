@@ -1,0 +1,7 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "c:dusts/sulfur" },
+  "matter": [
+    { "type": "replication:nether", "amount": 9 }
+  ]
+}

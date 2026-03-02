@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:slime_boulds" },
+  "matter": [
+    { "type": "replication:living", "amount": 2 },
+    { "type": "replication:organic", "amount": 1 },
+    { "type": "replication:earth", "amount": 1 }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:chaotic_core"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 700
+    },
+    {
+      "type": "replication:living",
+      "amount": 360
+    },
+    {
+      "type": "replication:nether",
+      "amount": 560
+    },
+    {
+      "type": "replication:ender",
+      "amount": 620
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 2100
+    },
+    {
+      "type": "replication:precious",
+      "amount": 1720
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 780
+    }
+  ]
+}

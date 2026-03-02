@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:wilden_tribute"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 50
+    },
+    {
+      "type": "replication:organic",
+      "amount": 50
+    },
+    {
+      "type": "replication:living",
+      "amount": 50
+    }
+  ]
+}

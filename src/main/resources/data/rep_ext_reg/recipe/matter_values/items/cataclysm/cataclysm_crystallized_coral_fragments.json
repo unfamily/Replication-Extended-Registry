@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "cataclysm:crystallized_coral_fragments"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 20
+    },
+    {
+      "type": "replication:organic",
+      "amount": 20
+    },
+    {
+      "type": "replication:nether",
+      "amount": 20
+    },
+    {
+      "type": "replication:ender",
+      "amount": 20
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 20
+    },
+    {
+      "type": "replication:precious",
+      "amount": 20
+    }
+  ]
+}

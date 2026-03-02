@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create_enchantment_industry:experience_cake"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 11
+    },
+    {
+      "type": "replication:organic",
+      "amount": 17
+    }
+  ]
+}

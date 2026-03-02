@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:awakened_draconium_nugget"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 8
+    },
+    {
+      "type": "replication:organic",
+      "amount": 3
+    },
+    {
+      "type": "replication:living",
+      "amount": 5
+    },
+    {
+      "type": "replication:nether",
+      "amount": 10
+    },
+    {
+      "type": "replication:ender",
+      "amount": 12
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 15
+    },
+    {
+      "type": "replication:precious",
+      "amount": 13
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 4
+    }
+  ]
+}

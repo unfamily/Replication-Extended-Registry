@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "industrialforegoing:light_blue_laser_lens"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 5
+    },
+    {
+      "type": "replication:precious",
+      "amount": 5
+    }
+  ]
+}

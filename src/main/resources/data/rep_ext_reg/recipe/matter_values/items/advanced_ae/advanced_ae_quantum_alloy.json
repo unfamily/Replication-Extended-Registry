@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "advanced_ae:quantum_alloy"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 60
+    },
+    {
+      "type": "replication:ender",
+      "amount": 260
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 260
+    },
+    {
+      "type": "replication:precious",
+      "amount": 320
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 80
+    }
+  ]
+}

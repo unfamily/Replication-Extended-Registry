@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "createaddition:chocolate_cake"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 12
+    },
+    {
+      "type": "replication:organic",
+      "amount": 21
+    },
+    {
+      "type": "replication:living",
+      "amount": 10
+    }
+  ]
+}

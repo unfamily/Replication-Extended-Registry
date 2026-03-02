@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:quantum_entangled_singularity"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 300
+    },
+    {
+      "type": "replication:nether",
+      "amount": 100
+    },
+    {
+      "type": "replication:ender",
+      "amount": 360
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 260
+    },
+    {
+      "type": "replication:precious",
+      "amount": 420
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 60
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "productivebees:wither_skull_chip"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 1
+    },
+    {
+      "type": "replication:organic",
+      "amount": 1
+    },
+    {
+      "type": "replication:nether",
+      "amount": 1
+    }
+  ]
+}

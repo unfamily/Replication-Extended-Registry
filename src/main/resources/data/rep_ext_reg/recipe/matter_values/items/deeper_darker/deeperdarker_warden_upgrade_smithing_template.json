@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "deeperdarker:warden_upgrade_smithing_template"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 1
+    },
+    {
+      "type": "replication:precious",
+      "amount": 252
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 1
+    }
+  ]
+}

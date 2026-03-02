@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:superconductor"
+  },
+  "matter": [
+    {
+      "type": "replication:ender",
+      "amount": 4
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 12
+    },
+    {
+      "type": "replication:precious",
+      "amount": 12
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 1
+    }
+  ]
+}

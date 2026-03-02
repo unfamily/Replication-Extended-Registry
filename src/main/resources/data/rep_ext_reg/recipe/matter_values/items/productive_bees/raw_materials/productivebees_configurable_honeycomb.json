@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "productivebees:configurable_honeycomb"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 8
+    },
+    {
+      "type": "replication:living",
+      "amount": 8
+    }
+  ]
+}

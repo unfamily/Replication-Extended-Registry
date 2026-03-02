@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "c:dusts/aluminum" },
+  "matter": [
+    { "type": "replication:metallic", "amount": 9 },
+    { "type": "replication:precious", "amount": 9 }
+  ]
+}

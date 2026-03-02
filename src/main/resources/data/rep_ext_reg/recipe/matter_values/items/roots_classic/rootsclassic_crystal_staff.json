@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "rootsclassic:crystal_staff"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:organic",
+      "amount": 6
+    },
+    {
+      "type": "replication:living",
+      "amount": 2
+    }
+  ]
+}

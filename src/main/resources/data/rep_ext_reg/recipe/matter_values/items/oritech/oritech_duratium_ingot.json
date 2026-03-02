@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:duratium_ingot"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 20
+    },
+    {
+      "type": "replication:nether",
+      "amount": 20
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 80
+    },
+    {
+      "type": "replication:precious",
+      "amount": 110
+    }
+  ]
+}

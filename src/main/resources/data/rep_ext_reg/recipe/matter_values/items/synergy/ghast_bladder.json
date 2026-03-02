@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:ghast_bladder" },
+  "matter": [
+    { "type": "replication:living", "amount": 2 },
+    { "type": "replication:organic", "amount": 2 },
+    { "type": "replication:nether", "amount": 1 }
+  ]
+}

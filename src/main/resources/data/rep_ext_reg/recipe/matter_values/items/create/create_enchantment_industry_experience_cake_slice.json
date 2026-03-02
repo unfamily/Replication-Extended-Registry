@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create_enchantment_industry:experience_cake_slice"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 2
+    },
+    {
+      "type": "replication:organic",
+      "amount": 4
+    },
+    {
+      "type": "replication:living",
+      "amount": 2
+    }
+  ]
+}

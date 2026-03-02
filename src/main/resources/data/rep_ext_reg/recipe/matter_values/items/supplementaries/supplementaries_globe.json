@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "supplementaries:globe"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 6
+    }
+  ]
+}

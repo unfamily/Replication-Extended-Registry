@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "the_bumblezone:sugar_water_bottle"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 1
+    },
+    {
+      "type": "replication:organic",
+      "amount": 1
+    },
+    {
+      "type": "replication:living",
+      "amount": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mahoutsukai:scroll_swap_familiar"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 100
+    },
+    {
+      "type": "replication:organic",
+      "amount": 100
+    }
+  ]
+}

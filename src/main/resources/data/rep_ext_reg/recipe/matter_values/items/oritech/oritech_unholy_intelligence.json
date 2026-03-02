@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:unholy_intelligence"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 4
+    },
+    {
+      "type": "replication:organic",
+      "amount": 8
+    },
+    {
+      "type": "replication:living",
+      "amount": 1
+    },
+    {
+      "type": "replication:ender",
+      "amount": 5
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 65
+    },
+    {
+      "type": "replication:precious",
+      "amount": 80
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 5
+    }
+  ]
+}

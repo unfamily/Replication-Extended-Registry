@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "deeperdarker:cobbled_sculk_stone"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 2
+    }
+  ]
+}

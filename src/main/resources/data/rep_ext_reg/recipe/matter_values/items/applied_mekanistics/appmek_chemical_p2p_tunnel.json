@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "appmek:chemical_p2p_tunnel"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 36
+    },
+    {
+      "type": "replication:precious",
+      "amount": 44
+    }
+  ]
+}

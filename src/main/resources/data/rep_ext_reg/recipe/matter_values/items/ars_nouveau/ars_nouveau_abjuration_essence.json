@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:abjuration_essence"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:organic",
+      "amount": 10
+    },
+    {
+      "type": "replication:living",
+      "amount": 10
+    },
+    {
+      "type": "replication:nether",
+      "amount": 1
+    },
+    {
+      "type": "replication:ender",
+      "amount": 1
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 5
+    },
+    {
+      "type": "replication:precious",
+      "amount": 5
+    }
+  ]
+}

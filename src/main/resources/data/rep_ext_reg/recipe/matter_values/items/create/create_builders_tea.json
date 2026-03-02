@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:builders_tea"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 11
+    },
+    {
+      "type": "replication:organic",
+      "amount": 16
+    },
+    {
+      "type": "replication:living",
+      "amount": 4
+    }
+  ]
+}

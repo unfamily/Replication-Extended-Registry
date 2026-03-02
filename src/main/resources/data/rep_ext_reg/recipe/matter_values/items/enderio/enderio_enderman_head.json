@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:enderman_head"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 8
+    }
+  ]
+}

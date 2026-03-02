@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "tag": "mysticalagriculture:seeds"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 20
+    },
+    {
+      "type": "replication:organic",
+      "amount": 20
+    },
+    {
+      "type": "replication:living",
+      "amount": 10
+    },
+    {
+      "type": "replication:nether",
+      "amount": 10
+    },
+    {
+      "type": "replication:ender",
+      "amount": 10
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 10
+    },
+    {
+      "type": "replication:precious",
+      "amount": 10
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 10
+    }
+  ]
+}

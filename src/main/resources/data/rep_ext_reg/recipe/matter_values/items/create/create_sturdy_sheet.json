@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:sturdy_sheet"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 8
+    }
+  ]
+}

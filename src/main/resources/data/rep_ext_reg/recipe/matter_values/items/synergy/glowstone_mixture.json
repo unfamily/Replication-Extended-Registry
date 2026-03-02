@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:glowstone_mixture" },
+  "matter": [
+    { "type": "replication:precious", "amount": 12 },
+    { "type": "replication:metallic", "amount": 12 }
+  ]
+}

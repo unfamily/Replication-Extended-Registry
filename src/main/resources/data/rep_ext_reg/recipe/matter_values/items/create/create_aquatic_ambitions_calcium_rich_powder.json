@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create_aquatic_ambitions:calcium_rich_powder"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 11
+    }
+  ]
+}

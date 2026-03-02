@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:fused_quartz"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 1
+    },
+    {
+      "type": "replication:precious",
+      "amount": 1
+    }
+  ]
+}

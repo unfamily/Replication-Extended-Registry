@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "actuallyadditions:water_bowl"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 4
+    },
+    {
+      "type": "replication:organic",
+      "amount": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:meteorite_compass"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 2
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 36
+    },
+    {
+      "type": "replication:precious",
+      "amount": 2
+    }
+  ]
+}

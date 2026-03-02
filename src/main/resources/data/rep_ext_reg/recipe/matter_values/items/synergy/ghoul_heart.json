@@ -1,0 +1,11 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:ghoul_heart" },
+  "matter": [
+    { "type": "replication:ender", "amount": 3 },
+    { "type": "replication:nether", "amount": 2 },
+    { "type": "replication:organic", "amount": 8 },
+    { "type": "replication:precious", "amount": 1 },
+    { "type": "replication:quantum", "amount": 1 }
+  ]
+}

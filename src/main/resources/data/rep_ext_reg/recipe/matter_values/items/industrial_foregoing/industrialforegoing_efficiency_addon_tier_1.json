@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "industrialforegoing:efficiency_addon_tier_1"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 40
+    },
+    {
+      "type": "replication:precious",
+      "amount": 50
+    }
+  ]
+}

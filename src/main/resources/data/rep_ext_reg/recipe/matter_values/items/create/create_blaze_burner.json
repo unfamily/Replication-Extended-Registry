@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:blaze_burner"
+  },
+  "matter": [
+    {
+      "type": "replication:nether",
+      "amount": 1
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 36
+    }
+  ]
+}

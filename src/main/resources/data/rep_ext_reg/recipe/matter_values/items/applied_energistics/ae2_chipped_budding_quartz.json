@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:chipped_budding_quartz"
+  },
+  "matter": [
+    {
+      "type": "replication:living",
+      "amount": 4
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 8
+    },
+    {
+      "type": "replication:precious",
+      "amount": 12
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 2
+    }
+  ]
+}

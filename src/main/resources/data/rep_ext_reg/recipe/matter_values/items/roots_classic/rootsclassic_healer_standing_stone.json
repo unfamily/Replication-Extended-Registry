@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "rootsclassic:healer_standing_stone"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 8
+    },
+    {
+      "type": "replication:organic",
+      "amount": 8
+    }
+  ]
+}

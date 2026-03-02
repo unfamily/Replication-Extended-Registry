@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:super_ai_chip"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 18
+    },
+    {
+      "type": "replication:organic",
+      "amount": 12
+    },
+    {
+      "type": "replication:nether",
+      "amount": 20
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 110
+    },
+    {
+      "type": "replication:precious",
+      "amount": 210
+    }
+  ]
+}

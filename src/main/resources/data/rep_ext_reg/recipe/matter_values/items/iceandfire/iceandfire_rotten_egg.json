@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "iceandfire:rotten_egg"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 20
+    },
+    {
+      "type": "replication:living",
+      "amount": 20
+    }
+  ]
+}

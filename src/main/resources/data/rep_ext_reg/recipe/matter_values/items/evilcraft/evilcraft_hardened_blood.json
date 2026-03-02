@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "evilcraft:hardened_blood"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 30
+    },
+    {
+      "type": "replication:living",
+      "amount": 25
+    },
+    {
+      "type": "replication:precious",
+      "amount": 4
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mifa:processing_addon_4"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 60
+    },
+    {
+      "type": "replication:precious",
+      "amount": 90
+    }
+  ]
+}

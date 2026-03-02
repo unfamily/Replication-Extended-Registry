@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "c:dusts/uranium" },
+  "matter": [
+    { "type": "replication:metallic", "amount": 9 },
+    { "type": "replication:quantum", "amount": 9 }
+  ]
+}

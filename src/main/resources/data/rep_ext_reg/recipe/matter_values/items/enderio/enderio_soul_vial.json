@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:soul_vial"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 15
+    },
+    {
+      "type": "replication:organic",
+      "amount": 45
+    },
+    {
+      "type": "replication:living",
+      "amount": 55
+    },
+    {
+      "type": "replication:nether",
+      "amount": 10
+    },
+    {
+      "type": "replication:ender",
+      "amount": 10
+    },
+    {
+      "type": "replication:precious",
+      "amount": 25
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "evilcraft:broom_part"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 200
+    },
+    {
+      "type": "replication:organic",
+      "amount": 35
+    },
+    {
+      "type": "replication:living",
+      "amount": 35
+    },
+    {
+      "type": "replication:nether",
+      "amount": 20
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 35
+    },
+    {
+      "type": "replication:precious",
+      "amount": 10
+    }
+  ]
+}

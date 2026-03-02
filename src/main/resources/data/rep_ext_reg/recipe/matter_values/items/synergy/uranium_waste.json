@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:waste" },
+  "matter": [
+    { "type": "replication:metallic", "amount": 9 },
+    { "type": "replication:quantum", "amount": 9 }
+  ]
+}

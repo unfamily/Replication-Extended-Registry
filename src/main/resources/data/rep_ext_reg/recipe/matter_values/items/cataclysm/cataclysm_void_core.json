@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "cataclysm:void_core"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 30
+    },
+    {
+      "type": "replication:organic",
+      "amount": 30
+    },
+    {
+      "type": "replication:living",
+      "amount": 30
+    },
+    {
+      "type": "replication:nether",
+      "amount": 30
+    },
+    {
+      "type": "replication:ender",
+      "amount": 30
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 30
+    },
+    {
+      "type": "replication:precious",
+      "amount": 30
+    }
+  ]
+}

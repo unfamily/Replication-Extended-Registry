@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:enchanters_mirror"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 5
+    },
+    {
+      "type": "replication:precious",
+      "amount": 5
+    }
+  ]
+}

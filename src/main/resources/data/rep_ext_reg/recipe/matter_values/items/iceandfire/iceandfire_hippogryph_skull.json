@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "iceandfire:hippogryph_skull"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 10
+    },
+    {
+      "type": "replication:living",
+      "amount": 10
+    }
+  ]
+}

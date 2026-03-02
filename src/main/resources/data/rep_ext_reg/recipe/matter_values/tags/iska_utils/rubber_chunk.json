@@ -1,0 +1,7 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "c:rubber_chunk" },
+  "matter": [
+    { "type": "replication:organic", "amount": 9 }
+  ]
+}

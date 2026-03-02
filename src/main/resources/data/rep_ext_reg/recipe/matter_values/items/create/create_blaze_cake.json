@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:blaze_cake"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 24
+    },
+    {
+      "type": "replication:organic",
+      "amount": 4
+    },
+    {
+      "type": "replication:nether",
+      "amount": 19
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 9
+    }
+  ]
+}

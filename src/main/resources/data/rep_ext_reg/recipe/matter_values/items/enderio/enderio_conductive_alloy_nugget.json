@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:conductive_alloy_nugget"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 1
+    },
+    {
+      "type": "replication:nether",
+      "amount": 1
+    },
+    {
+      "type": "replication:ender",
+      "amount": 1
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 1
+    },
+    {
+      "type": "replication:precious",
+      "amount": 1
+    }
+  ]
+}

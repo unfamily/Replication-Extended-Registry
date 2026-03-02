@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:reactor_stabilizer"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 380
+    },
+    {
+      "type": "replication:organic",
+      "amount": 90
+    },
+    {
+      "type": "replication:living",
+      "amount": 130
+    },
+    {
+      "type": "replication:nether",
+      "amount": 200
+    },
+    {
+      "type": "replication:ender",
+      "amount": 240
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 720
+    },
+    {
+      "type": "replication:precious",
+      "amount": 260
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 60
+    }
+  ]
+}

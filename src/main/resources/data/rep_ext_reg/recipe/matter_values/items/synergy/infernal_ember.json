@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:infernal_ember" },
+  "matter": [
+    { "type": "replication:nether", "amount": 1 },
+    { "type": "replication:living", "amount": 1 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "immersiveengineering:coresample"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 12
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 15
+    },
+    {
+      "type": "replication:precious",
+      "amount": 7
+    }
+  ]
+}

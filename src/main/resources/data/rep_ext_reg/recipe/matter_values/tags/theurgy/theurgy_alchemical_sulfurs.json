@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "theurgy:alchemical_sulfurs" },
+  "matter": [
+    { "type": "replication:earth", "amount": 60 },
+    { "type": "replication:organic", "amount": 50 },
+	{ "type": "replication:metallic", "amount": 10 }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "extendedae:active_formation_plane"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 40
+    },
+    {
+      "type": "replication:nether",
+      "amount": 10
+    },
+    {
+      "type": "replication:ender",
+      "amount": 170
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 150
+    },
+    {
+      "type": "replication:precious",
+      "amount": 130
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 120
+    }
+  ]
+}

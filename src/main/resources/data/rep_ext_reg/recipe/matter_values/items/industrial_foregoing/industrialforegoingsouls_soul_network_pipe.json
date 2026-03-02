@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "industrialforegoingsouls:soul_network_pipe"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 40
+    },
+    {
+      "type": "replication:precious",
+      "amount": 60
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 40
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "fluxnetworks:flux_dust" },
+  "matter": [
+    { "type": "replication:earth", "amount": 3 },
+    { "type": "replication:organic", "amount": 1 }
+  ]
+}

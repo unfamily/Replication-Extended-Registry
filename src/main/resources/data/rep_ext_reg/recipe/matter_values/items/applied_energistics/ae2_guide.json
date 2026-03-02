@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:guide"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 2
+    },
+    {
+      "type": "replication:organic",
+      "amount": 8
+    },
+    {
+      "type": "replication:living",
+      "amount": 6
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mahoutsukai:murky_bucket"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 14
+    },
+    {
+      "type": "replication:precious",
+      "amount": 4
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 1
+    }
+  ]
+}

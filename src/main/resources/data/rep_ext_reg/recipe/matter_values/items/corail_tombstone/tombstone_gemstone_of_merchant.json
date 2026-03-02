@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "tombstone:gemstone_of_merchant"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 40
+    },
+    {
+      "type": "replication:organic",
+      "amount": 28
+    },
+    {
+      "type": "replication:living",
+      "amount": 14
+    }
+  ]
+}

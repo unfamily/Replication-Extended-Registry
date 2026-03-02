@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "industrialforegoing:machine_frame_supreme"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 220
+    },
+    {
+      "type": "replication:organic",
+      "amount": 380
+    },
+    {
+      "type": "replication:nether",
+      "amount": 70
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 1050
+    },
+    {
+      "type": "replication:precious",
+      "amount": 380
+    }
+  ]
+}

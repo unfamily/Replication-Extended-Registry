@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "productivebees:draconic_dust" },
+  "matter": [
+    { "type": "replication:quantum", "amount": 2 },
+    { "type": "replication:organic", "amount": 2 },
+    { "type": "replication:living", "amount": 2 }
+  ]
+}

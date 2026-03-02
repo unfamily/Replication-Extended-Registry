@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:amethyst_mixture" },
+  "matter": [
+    { "type": "replication:precious", "amount": 4 },
+    { "type": "replication:metallic", "amount": 4 }
+  ]
+}

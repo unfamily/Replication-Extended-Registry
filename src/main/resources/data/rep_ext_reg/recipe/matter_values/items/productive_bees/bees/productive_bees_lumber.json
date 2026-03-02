@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "productivebees:spawn_egg_lumber_bee" },
+  "matter": [
+    { "type": "replication:earth", "amount": 2 },
+    { "type": "replication:organic", "amount": 10 },
+    { "type": "replication:living", "amount": 14 }
+  ]
+}

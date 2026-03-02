@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mekanism:bio_fuel"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:organic",
+      "amount": 10
+    },
+    {
+      "type": "replication:living",
+      "amount": 1
+    }
+  ]
+}

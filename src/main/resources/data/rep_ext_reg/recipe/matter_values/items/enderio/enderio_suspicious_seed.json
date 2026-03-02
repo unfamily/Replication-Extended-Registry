@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:suspicious_seed"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 5
+    },
+    {
+      "type": "replication:organic",
+      "amount": 1
+    },
+    {
+      "type": "replication:nether",
+      "amount": 1
+    },
+    {
+      "type": "replication:ender",
+      "amount": 1
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 2
+    }
+  ]
+}

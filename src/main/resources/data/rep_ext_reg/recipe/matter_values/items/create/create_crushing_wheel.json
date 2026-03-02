@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:crushing_wheel"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 23
+    },
+    {
+      "type": "replication:organic",
+      "amount": 11
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 38
+    },
+    {
+      "type": "replication:precious",
+      "amount": 8
+    }
+  ]
+}

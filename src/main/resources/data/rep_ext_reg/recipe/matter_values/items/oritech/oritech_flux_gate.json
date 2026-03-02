@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:flux_gate"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 21
+    },
+    {
+      "type": "replication:organic",
+      "amount": 9
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 50
+    },
+    {
+      "type": "replication:precious",
+      "amount": 58
+    }
+  ]
+}

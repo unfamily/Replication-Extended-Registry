@@ -1,0 +1,7 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:sap" },
+  "matter": [
+    { "type": "replication:organic", "amount": 3 }
+  ]
+}

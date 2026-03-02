@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "advancedperipherals:husbandry_automata_core"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 34
+    },
+    {
+      "type": "replication:ender",
+      "amount": 12
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 48
+    },
+    {
+      "type": "replication:precious",
+      "amount": 140
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 16
+    }
+  ]
+}

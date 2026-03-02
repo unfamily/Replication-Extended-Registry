@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "extendedae:concurrent_processor_print"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 15
+    },
+    {
+      "type": "replication:nether",
+      "amount": 5
+    },
+    {
+      "type": "replication:ender",
+      "amount": 120
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 80
+    },
+    {
+      "type": "replication:precious",
+      "amount": 90
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 110
+    }
+  ]
+}

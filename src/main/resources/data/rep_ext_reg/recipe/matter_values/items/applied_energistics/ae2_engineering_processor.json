@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:engineering_processor"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 20
+    },
+    {
+      "type": "replication:nether",
+      "amount": 5
+    },
+    {
+      "type": "replication:ender",
+      "amount": 15
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 35
+    },
+    {
+      "type": "replication:precious",
+      "amount": 45
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "cataclysm:cursium_upgrade_smithing_template"
+  },
+  "matter": [
+    {
+      "type": "replication:nether",
+      "amount": 30
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 50
+    },
+    {
+      "type": "replication:precious",
+      "amount": 100
+    }
+  ]
+}

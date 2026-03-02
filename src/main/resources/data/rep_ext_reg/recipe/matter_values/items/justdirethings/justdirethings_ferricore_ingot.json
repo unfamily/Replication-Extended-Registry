@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "justdirethings:ferricore_ingot"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 50
+    },
+    {
+      "type": "replication:organic",
+      "amount": 50
+    },
+    {
+      "type": "replication:living",
+      "amount": 50
+    },
+    {
+      "type": "replication:nether",
+      "amount": 50
+    },
+    {
+      "type": "replication:ender",
+      "amount": 50
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 50
+    },
+    {
+      "type": "replication:precious",
+      "amount": 50
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 50
+    }
+  ]
+}

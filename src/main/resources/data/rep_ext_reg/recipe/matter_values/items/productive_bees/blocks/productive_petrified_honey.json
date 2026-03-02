@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "productivebees:petrified_honey" },
+  "matter": [
+    { "type": "replication:earth", "amount": 4 },
+    { "type": "replication:organic", "amount": 18 },
+    { "type": "replication:living", "amount": 18 }
+  ]
+}

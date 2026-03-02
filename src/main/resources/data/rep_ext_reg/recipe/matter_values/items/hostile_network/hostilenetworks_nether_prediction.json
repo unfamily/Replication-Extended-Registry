@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "hostilenetworks:nether_prediction"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 17
+    },
+    {
+      "type": "replication:organic",
+      "amount": 22
+    },
+    {
+      "type": "replication:living",
+      "amount": 22
+    },
+    {
+      "type": "replication:nether",
+      "amount": 3
+    },
+    {
+      "type": "replication:ender",
+      "amount": 3
+    },
+    {
+      "type": "replication:precious",
+      "amount": 12
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 2
+    }
+  ]
+}

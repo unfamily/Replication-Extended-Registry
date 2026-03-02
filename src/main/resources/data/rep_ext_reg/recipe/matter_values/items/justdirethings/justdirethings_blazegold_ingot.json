@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "justdirethings:blazegold_ingot"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 75
+    },
+    {
+      "type": "replication:organic",
+      "amount": 75
+    },
+    {
+      "type": "replication:living",
+      "amount": 75
+    },
+    {
+      "type": "replication:nether",
+      "amount": 75
+    },
+    {
+      "type": "replication:ender",
+      "amount": 75
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 75
+    },
+    {
+      "type": "replication:precious",
+      "amount": 75
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 75
+    }
+  ]
+}

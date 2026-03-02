@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create_enchantment_industry:blaze_enchanter"
+  },
+  "matter": [
+    {
+      "type": "replication:nether",
+      "amount": 12
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 36
+    },
+    {
+      "type": "replication:precious",
+      "amount": 45
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 2
+    }
+  ]
+}

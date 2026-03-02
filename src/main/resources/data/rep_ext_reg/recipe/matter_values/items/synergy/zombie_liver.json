@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:zombie_liver" },
+  "matter": [
+    { "type": "replication:living", "amount": 3 },
+    { "type": "replication:organic", "amount": 3 }
+  ]
+}

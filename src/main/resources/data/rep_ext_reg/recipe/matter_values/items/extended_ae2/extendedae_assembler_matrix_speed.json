@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "extendedae:assembler_matrix_speed"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 120
+    },
+    {
+      "type": "replication:nether",
+      "amount": 40
+    },
+    {
+      "type": "replication:ender",
+      "amount": 620
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 520
+    },
+    {
+      "type": "replication:precious",
+      "amount": 600
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 420
+    }
+  ]
+}

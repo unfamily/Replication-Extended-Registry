@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:sky_dust"
+  },
+  "matter": [
+    {
+      "type": "replication:precious",
+      "amount": 1
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 1
+    }
+  ]
+}

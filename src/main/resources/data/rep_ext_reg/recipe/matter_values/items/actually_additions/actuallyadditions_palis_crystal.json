@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "actuallyadditions:palis_crystal"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 10
+    },
+    {
+      "type": "replication:precious",
+      "amount": 30
+    }
+  ]
+}

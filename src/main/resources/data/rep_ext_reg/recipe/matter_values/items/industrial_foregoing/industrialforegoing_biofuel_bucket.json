@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "industrialforegoing:biofuel_bucket"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:organic",
+      "amount": 10
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 10
+    },
+    {
+      "type": "replication:precious",
+      "amount": 20
+    }
+  ]
+}

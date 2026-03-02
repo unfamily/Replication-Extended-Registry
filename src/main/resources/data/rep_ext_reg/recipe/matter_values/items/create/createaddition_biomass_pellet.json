@@ -1,0 +1,12 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "createaddition:biomass_pellet"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 11
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "actuallyadditions:ethetic_green_block"
+  },
+  "matter": [
+    {
+      "type": "replication:nether",
+      "amount": 8
+    },
+    {
+      "type": "replication:precious",
+      "amount": 16
+    }
+  ]
+}

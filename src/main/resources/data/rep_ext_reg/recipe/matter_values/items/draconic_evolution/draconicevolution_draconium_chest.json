@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:draconium_chest"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 80
+    },
+    {
+      "type": "replication:organic",
+      "amount": 10
+    },
+    {
+      "type": "replication:living",
+      "amount": 20
+    },
+    {
+      "type": "replication:nether",
+      "amount": 35
+    },
+    {
+      "type": "replication:ender",
+      "amount": 40
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 260
+    },
+    {
+      "type": "replication:precious",
+      "amount": 55
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 10
+    }
+  ]
+}

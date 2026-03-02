@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:pierce_arrow"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 5
+    },
+    {
+      "type": "replication:organic",
+      "amount": 2
+    }
+  ]
+}

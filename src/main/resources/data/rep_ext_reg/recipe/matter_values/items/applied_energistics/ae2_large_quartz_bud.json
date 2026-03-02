@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ae2:large_quartz_bud"
+  },
+  "matter": [
+    {
+      "type": "replication:living",
+      "amount": 4
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 8
+    },
+    {
+      "type": "replication:precious",
+      "amount": 12
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 2
+    }
+  ]
+}

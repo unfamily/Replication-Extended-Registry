@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "sophisticatedbackpacks:netherite_backpack"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 10
+    },
+    {
+      "type": "replication:organic",
+      "amount": 10
+    },
+    {
+      "type": "replication:living",
+      "amount": 20
+    },
+    {
+      "type": "replication:nether",
+      "amount": 30
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 60
+    },
+    {
+      "type": "replication:precious",
+      "amount": 100
+    }
+  ]
+}

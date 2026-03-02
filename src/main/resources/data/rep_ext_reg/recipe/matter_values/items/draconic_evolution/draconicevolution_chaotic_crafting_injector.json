@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:chaotic_crafting_injector"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 260
+    },
+    {
+      "type": "replication:organic",
+      "amount": 90
+    },
+    {
+      "type": "replication:living",
+      "amount": 140
+    },
+    {
+      "type": "replication:nether",
+      "amount": 250
+    },
+    {
+      "type": "replication:ender",
+      "amount": 280
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 850
+    },
+    {
+      "type": "replication:precious",
+      "amount": 260
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 170
+    }
+  ]
+}

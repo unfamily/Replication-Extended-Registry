@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "megacells:sky_steel_ingot"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 14
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 18
+    },
+    {
+      "type": "replication:precious",
+      "amount": 22
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 8
+    }
+  ]
+}

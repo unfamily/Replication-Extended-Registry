@@ -1,0 +1,36 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "draconicevolution:awakened_core"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 500
+    },
+    {
+      "type": "replication:living",
+      "amount": 260
+    },
+    {
+      "type": "replication:nether",
+      "amount": 320
+    },
+    {
+      "type": "replication:ender",
+      "amount": 300
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 1300
+    },
+    {
+      "type": "replication:precious",
+      "amount": 1050
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 420
+    }
+  ]
+}

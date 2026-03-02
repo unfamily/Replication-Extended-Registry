@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "mahoutsukai:mystic_staff"
+  },
+  "matter": [
+    {
+      "type": "replication:nether",
+      "amount": 31
+    },
+    {
+      "type": "replication:ender",
+      "amount": 23
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 62
+    },
+    {
+      "type": "replication:precious",
+      "amount": 117
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 10
+    }
+  ]
+}

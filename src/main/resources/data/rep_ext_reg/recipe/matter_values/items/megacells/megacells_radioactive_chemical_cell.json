@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "megacells:radioactive_chemical_cell"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 345
+    },
+    {
+      "type": "replication:nether",
+      "amount": 10
+    },
+    {
+      "type": "replication:ender",
+      "amount": 15
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 410
+    },
+    {
+      "type": "replication:precious",
+      "amount": 320
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 120
+    }
+  ]
+}

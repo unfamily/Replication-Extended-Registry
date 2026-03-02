@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "actuallyadditions:diamatine_crystal_cluster"
+  },
+  "matter": [
+    {
+      "type": "replication:metallic",
+      "amount": 3
+    },
+    {
+      "type": "replication:precious",
+      "amount": 13
+    }
+  ]
+}

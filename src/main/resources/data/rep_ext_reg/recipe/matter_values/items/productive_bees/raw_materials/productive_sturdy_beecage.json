@@ -1,0 +1,8 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "productivebees:sturdy_bee_cage" },
+  "matter": [
+    { "type": "replication:earth", "amount": 18 },
+    { "type": "replication:living", "amount": 18 }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "minecraft:decorated_pot_sherds" },
+  "matter": [
+    { "type": "replication:earth", "amount": 6 }
+  ]
+}

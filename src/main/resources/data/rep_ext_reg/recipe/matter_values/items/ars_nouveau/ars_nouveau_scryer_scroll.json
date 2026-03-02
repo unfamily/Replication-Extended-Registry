@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:scryer_scroll"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 4
+    },
+    {
+      "type": "replication:living",
+      "amount": 2
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 4
+    },
+    {
+      "type": "replication:precious",
+      "amount": 4
+    }
+  ]
+}

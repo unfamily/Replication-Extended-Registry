@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "createaddition:electric_motor"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 21
+    },
+    {
+      "type": "replication:organic",
+      "amount": 8
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 33
+    },
+    {
+      "type": "replication:precious",
+      "amount": 43
+    }
+  ]
+}

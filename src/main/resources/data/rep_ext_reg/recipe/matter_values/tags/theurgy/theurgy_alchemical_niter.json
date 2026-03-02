@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "tag": "theurgy:alchemical_niters" },
+  "matter": [
+    { "type": "replication:earth", "amount": 140 },
+    { "type": "replication:organic", "amount": 80 },
+	{ "type": "replication:living", "amount": 40 }
+  ]
+}

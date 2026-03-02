@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "ars_nouveau:sorcerer_hood"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 50
+    },
+    {
+      "type": "replication:organic",
+      "amount": 20
+    }
+  ]
+}

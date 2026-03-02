@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "advanced_ae:printed_quantum_processor"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 80
+    },
+    {
+      "type": "replication:nether",
+      "amount": 20
+    },
+    {
+      "type": "replication:ender",
+      "amount": 360
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 320
+    },
+    {
+      "type": "replication:precious",
+      "amount": 420
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 240
+    }
+  ]
+}

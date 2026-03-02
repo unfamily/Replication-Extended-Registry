@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "the_bumblezone:honey_crystal"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 8
+    },
+    {
+      "type": "replication:living",
+      "amount": 8
+    }
+  ]
+}

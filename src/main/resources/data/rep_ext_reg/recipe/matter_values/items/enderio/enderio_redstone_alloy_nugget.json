@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "enderio:redstone_alloy_nugget"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 2
+    },
+    {
+      "type": "replication:nether",
+      "amount": 1
+    },
+    {
+      "type": "replication:ender",
+      "amount": 1
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 4
+    },
+    {
+      "type": "replication:precious",
+      "amount": 2
+    }
+  ]
+}

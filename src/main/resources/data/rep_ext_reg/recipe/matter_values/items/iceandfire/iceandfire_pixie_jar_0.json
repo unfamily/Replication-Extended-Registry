@@ -1,0 +1,16 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "iceandfire:pixie_jar_0"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 15
+    },
+    {
+      "type": "replication:living",
+      "amount": 2
+    }
+  ]
+}

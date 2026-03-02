@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "immersiveengineering:plate_duroplast"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 11
+    },
+    {
+      "type": "replication:organic",
+      "amount": 12
+    },
+    {
+      "type": "replication:living",
+      "amount": 2
+    }
+  ]
+}

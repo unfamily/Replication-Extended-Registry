@@ -1,0 +1,32 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "oritech:heisenberg_compensator"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 23
+    },
+    {
+      "type": "replication:organic",
+      "amount": 19
+    },
+    {
+      "type": "replication:living",
+      "amount": 10
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 163
+    },
+    {
+      "type": "replication:precious",
+      "amount": 321
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 5
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create_enchantment_industry:experience_hatch"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 200
+    },
+    {
+      "type": "replication:living",
+      "amount": 45
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 40
+    },
+    {
+      "type": "replication:precious",
+      "amount": 4
+    }
+  ]
+}

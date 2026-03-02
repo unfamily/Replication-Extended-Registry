@@ -1,0 +1,9 @@
+{
+  "type": "replication:matter_value",
+  "input": { "item": "synergy:energized_redstone_dust" },
+  "matter": [
+    { "type": "replication:precious", "amount": 1 },
+    { "type": "replication:earth", "amount": 1 },
+    { "type": "replication:nether", "amount": 1 }
+  ]
+}

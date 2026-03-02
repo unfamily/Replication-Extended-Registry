@@ -1,0 +1,40 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "justdirethings:eclipsealloy_ingot"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 100
+    },
+    {
+      "type": "replication:organic",
+      "amount": 100
+    },
+    {
+      "type": "replication:living",
+      "amount": 100
+    },
+    {
+      "type": "replication:nether",
+      "amount": 100
+    },
+    {
+      "type": "replication:ender",
+      "amount": 100
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 100
+    },
+    {
+      "type": "replication:precious",
+      "amount": 100
+    },
+    {
+      "type": "replication:quantum",
+      "amount": 100
+    }
+  ]
+}

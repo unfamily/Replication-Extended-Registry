@@ -1,0 +1,20 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "create:honey_bucket"
+  },
+  "matter": [
+    {
+      "type": "replication:earth",
+      "amount": 8
+    },
+    {
+      "type": "replication:organic",
+      "amount": 15
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 12
+    }
+  ]
+}

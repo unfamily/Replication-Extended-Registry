@@ -1,0 +1,28 @@
+{
+  "type": "replication:matter_value",
+  "input": {
+    "item": "cataclysm:void_forge"
+  },
+  "matter": [
+    {
+      "type": "replication:organic",
+      "amount": 189
+    },
+    {
+      "type": "replication:nether",
+      "amount": 30
+    },
+    {
+      "type": "replication:ender",
+      "amount": 30
+    },
+    {
+      "type": "replication:metallic",
+      "amount": 189
+    },
+    {
+      "type": "replication:precious",
+      "amount": 189
+    }
+  ]
+}
