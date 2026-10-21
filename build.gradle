@@ -117,17 +117,27 @@ dependencies {
     implementation "curse.maven:titanium-287342:6875285"
     implementation "curse.maven:replication-638351:7331983"
 
-    // Example optional mod dependency with JEI
-    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
-    // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
-    // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it
-    // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+    // Iskandert Library 1.21.1 — local JAR in libs/ when present, else CurseForge
+    def iskaLibLocalJar = file('libs/iska_lib-1.12.0.0.0-neoforge-1.21.1.jar')
+    if (!iskaLibLocalJar.exists()) {
+        iskaLibLocalJar = file('libs/iska_lib-1.12.0.1.0-neoforge-1.21.1.jar')
+    }
+    def iskaLibForceRemote = project.findProperty('iskaLibUseLocal')?.toString()?.toBoolean() == false
+    if (iskaLibLocalJar.exists() && !iskaLibForceRemote) {
+        implementation files(iskaLibLocalJar)
+        localRuntime files(iskaLibLocalJar)
+    } else {
+        implementation "curse.maven:iskanderts-library-1516512:8612291"
+    }
 
-    // Example mod dependency using a mod jar from ./libs with a flat dir repository
-    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
-    // The group id is ignored when searching -- in this case, it is "blank"
-    // implementation "blank:coolmod-${mc_version}:${coolmod_version}"
+    def acmLocalJar = file('../AnotherConfigManager/build/libs/another_config_manager-1.0.0.0.0.jar')
+    if (!acmLocalJar.exists()) {
+        acmLocalJar = file('libs/another_config_manager-1.0.0.0.0.jar')
+    }
+    if (acmLocalJar.exists()) {
+        implementation files(acmLocalJar)
+        localRuntime files(acmLocalJar)
+    }
 
     // Example mod dependency using a file as dependency
     // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")

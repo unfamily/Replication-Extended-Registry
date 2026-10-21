@@ -4,152 +4,61 @@ import com.buuz135.replication.ReplicationRegistry;
 import com.buuz135.replication.calculation.MatterCompound;
 import com.buuz135.replication.calculation.MatterValue;
 import com.buuz135.replication.calculation.ReplicationCalculation;
-import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
-import net.unfamiy.rep_ext_reg.Config;
+import net.unfamily.iskalib.load.LoadFilesystemBootstrap;
+import net.unfamily.iskalib.load.LoadJson;
+import net.unfamiy.rep_ext_reg.ExtReg;
 import org.slf4j.Logger;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
-import java.util.stream.Stream;
 
 /**
- * Loads matter registration scripts from the external scripts path.
- * JSON format: type "rep_ext_reg", optional "aggressive" (default false), "entries" array of
- * { "res": ["minecraft:tnt"] or ["#c:ingots/lead"], "mat": [{"replication:earth": 10}] }.
- * When aggressive is true, these entries override any existing matter value for the same item.
- * Call {@link #load()} to parse scripts; call {@link #inject()} after Replication has finished
- * calculation (ReplicationCalculation.STATUS == CALCULATED) to apply entries to DEFAULT_MATTER_COMPOUND.
+ * Loads matter registration scripts via Iskandert Library load JSON.
+ * JSON format: type {@code rep_ext_reg} (or {@code rep_ext_reg:register}), optional {@code aggressive},
+ * {@code entries} array of {@code { "res": [...], "mat": [...] }}.
+ * Sources: jar {@code data/rep_ext_reg/load/} (any nested folders), datapack bootstrap roots,
+ * live ResourceManager. Matching is by root {@code type}.
  */
 public class RegisterScriptLoader {
 
     private static final Logger LOGGER = LogUtils.getLogger();
-    private static final Gson GSON = new Gson();
-    private static final String EXPECTED_TYPE = "rep_ext_reg";
+    public static final String TYPE = "rep_ext_reg";
+    public static final String TYPE_ALT = "rep_ext_reg:register";
+    private static final Set<String> ACCEPTED_TYPES = Set.of(TYPE, TYPE_ALT);
 
     private static final List<RegisterEntry> LOADED_ENTRIES = new ArrayList<>();
 
     public static void load() {
+        load(null);
+    }
+
+    public static void load(ResourceManager resourceManager) {
         LOADED_ENTRIES.clear();
-        String basePath = Config.EXTERNAL_SCRIPTS_PATH.get();
-        if (basePath == null || basePath.trim().isEmpty()) {
-            basePath = "kubejs/external_scripts/rep_ext_reg";
+        Map<ResourceLocation, JsonElement> merged = new LinkedHashMap<>();
+        merged.putAll(LoadJson.collectFromModJarPath(ExtReg.MODID, ExtReg.MODID, LoadJson.LOAD_FOLDER));
+        LoadFilesystemBootstrap.mergeIntoForTypes(merged, ACCEPTED_TYPES);
+        if (resourceManager != null) {
+            merged.putAll(LoadJson.collectMergedJsonForTypes(resourceManager, ACCEPTED_TYPES));
         }
-        Path dir = Paths.get(basePath);
-        if (!Files.exists(dir)) {
-            try {
-                Files.createDirectories(dir);
-                createReadme(dir);
-                LOGGER.info("[rep_ext_reg] Created scripts directory and README at {}", dir.toAbsolutePath());
-            } catch (IOException e) {
-                LOGGER.warn("[rep_ext_reg] Could not create scripts directory: {}", e.getMessage());
-            }
-            return;
+        for (Map.Entry<ResourceLocation, JsonElement> entry : LoadJson.orderedEntries(merged)) {
+            parseRoot(entry.getValue());
         }
-        if (!Files.isDirectory(dir)) {
-            LOGGER.debug("[rep_ext_reg] Register scripts path is not a directory: {}", dir);
-            return;
-        }
-        try {
-            createReadme(dir);
-        } catch (IOException e) {
-            LOGGER.warn("[rep_ext_reg] Could not write README: {}", e.getMessage());
-        }
-        try (Stream<Path> files = Files.walk(dir)) {
-            files.filter(Files::isRegularFile)
-                    .filter(p -> p.toString().endsWith(".json"))
-                    .filter(p -> !p.getFileName().toString().startsWith("."))
-                    .sorted()
-                    .forEach(RegisterScriptLoader::parseFile);
-        } catch (IOException e) {
-            LOGGER.warn("[rep_ext_reg] Failed to scan register scripts: {}", e.getMessage());
-        }
-        LOGGER.info("[rep_ext_reg] Loaded {} register entries from scripts", LOADED_ENTRIES.size());
+        LOGGER.info("[rep_ext_reg] Loaded {} register entries from load JSON", LOADED_ENTRIES.size());
     }
 
-    private static void createReadme(Path dir) throws IOException {
-        String content = """
-            # Replication Extended Registry – Register scripts
-
-            This folder is read by **rep_ext_reg** to register matter values for items (Replication mod).
-            Place one or more `.json` files here. They are loaded on server start and after `/reload`.
-
-            ## Path
-
-            Configured in mod config: **dev.externalScriptsPath** (default: `kubejs/external_scripts/rep_ext_reg`).
-
-            ## JSON format
-
-            Each JSON file must have:
-
-            - **`type`** (required): must be `"rep_ext_reg"`. Files with another type are ignored.
-            - **`aggressive`** (optional, default `false`): if `true`, these entries **override** any existing matter value for the same item (datapack/KubeJS). If `false`, entries apply only when the item has no value yet.
-            - **`entries`** (required): array of objects, each with:
-              - **`res`**: array of strings — one or more item IDs (`"minecraft:tnt"`) and/or **tags** with `#` prefix (`"#c:ingots/lead"`). All listed IDs share the same matter definition for this entry.
-              - **`mat`**: array of objects mapping matter type to amount: `{ "replication:earth": 10 }`. Use full ID (`replication:metallic`) or short name (`metallic` → `replication:metallic`). Multiple matter types per entry are allowed.
-
-            ## Comments
-
-            `//` and `/* */` comments are allowed in JSON and are stripped before parsing.
-
-            ## Example
-
-            One entry can list multiple IDs in `res`; they all get the same `mat`:
-
-            ```json
-            {
-                "type": "rep_ext_reg",
-                "aggressive": false,
-                "entries": [
-                    {
-                        "res": ["minecraft:tnt", "minecraft:gunpowder"],
-                        "mat": [{"replication:earth": 10}]
-                    },
-                    {
-                        "res": ["#c:ingots/lead", "#c:ingots/iron", "minecraft:iron_ingot"],
-                        "mat": [{"replication:metallic": 10}]
-                    }
-                ]
-            }
-            ```
-
-            ## When it applies
-
-            Scripts are loaded on **TagsUpdatedEvent** (server data load / reload). Values are **injected** into Replication’s matter calculation after it has finished (first server tick where status is CALCULATED). Use `/reload` to re-apply after editing files.
-            """;
-        Files.writeString(dir.resolve("README.md"), content);
-    }
-
-    private static void parseFile(Path file) {
-        String content;
-        try {
-            content = Files.readString(file);
-        } catch (IOException e) {
-            LOGGER.warn("[rep_ext_reg] Could not read {}: {}", file, e.getMessage());
-            return;
-        }
-        content = stripJsonComments(content);
-        JsonElement root;
-        try {
-            root = GSON.fromJson(content, JsonElement.class);
-        } catch (Exception e) {
-            LOGGER.warn("[rep_ext_reg] Invalid JSON in {}: {}", file, e.getMessage());
-            return;
-        }
+    private static void parseRoot(JsonElement root) {
         if (root == null || !root.isJsonObject()) return;
         JsonObject obj = root.getAsJsonObject();
         String type = obj.has("type") ? obj.get("type").getAsString() : "";
-        if (!EXPECTED_TYPE.equals(type)) return;
+        if (!ACCEPTED_TYPES.contains(type)) return;
         boolean aggressive = obj.has("aggressive") && obj.get("aggressive").getAsBoolean();
         if (!obj.has("entries") || !obj.get("entries").isJsonArray()) return;
         JsonArray entries = obj.get("entries").getAsJsonArray();
@@ -158,68 +67,6 @@ public class RegisterScriptLoader {
             RegisterEntry entry = parseEntry(el.getAsJsonObject(), aggressive);
             if (entry != null) LOADED_ENTRIES.add(entry);
         }
-    }
-
-    private static String stripJsonComments(String json) {
-        StringBuilder out = new StringBuilder();
-        boolean inString = false;
-        char stringChar = 0;
-        boolean escaped = false;
-        boolean inLineComment = false;
-        boolean inBlockComment = false;
-        int i = 0;
-        while (i < json.length()) {
-            char c = json.charAt(i);
-            if (inBlockComment) {
-                if (c == '*' && i + 1 < json.length() && json.charAt(i + 1) == '/') {
-                    inBlockComment = false;
-                    i++;
-                }
-                i++;
-                continue;
-            }
-            if (inLineComment) {
-                if (c == '\n' || c == '\r') inLineComment = false;
-                i++;
-                continue;
-            }
-            if (escaped) {
-                out.append(c);
-                escaped = false;
-                i++;
-                continue;
-            }
-            if (inString) {
-                out.append(c);
-                if (c == '\\') escaped = true;
-                else if (c == stringChar) inString = false;
-                i++;
-                continue;
-            }
-            if (c == '"' || c == '\'') {
-                inString = true;
-                stringChar = c;
-                out.append(c);
-                i++;
-                continue;
-            }
-            if (c == '/' && i + 1 < json.length()) {
-                char next = json.charAt(i + 1);
-                if (next == '/') {
-                    inLineComment = true;
-                    i += 2;
-                    continue;
-                }
-                if (next == '*') {
-                    inBlockComment = true;
-                    i += 2;
-                    continue;
-                }
-            }
-            out.append(c);
-            i++;
-        }
-        return out.toString();
     }
 
     private static RegisterEntry parseEntry(JsonObject o, boolean aggressive) {
@@ -249,10 +96,6 @@ public class RegisterScriptLoader {
         return new RegisterEntry(res, mat, aggressive);
     }
 
-    /**
-     * Applies loaded register entries to Replication's DEFAULT_MATTER_COMPOUND.
-     * Call only after ReplicationCalculation.STATUS == CALCULATED (e.g. from a delayed tick task).
-     */
     public static void inject() {
         if (ReplicationRegistry.MATTER_TYPES_REGISTRY == null) {
             LOGGER.warn("[rep_ext_reg] Replication matter registry not available, skipping inject");
@@ -319,8 +162,6 @@ public class RegisterScriptLoader {
         return !LOADED_ENTRIES.isEmpty();
     }
 
-    // --- Event-driven load and inject (call registerEvents() from mod constructor) ---
-
     private static boolean needsInject = false;
 
     public static void registerEvents(net.neoforged.bus.api.IEventBus forgeBus) {
@@ -330,7 +171,12 @@ public class RegisterScriptLoader {
 
     private static void onTagsUpdated(net.neoforged.neoforge.event.TagsUpdatedEvent event) {
         if (event.getUpdateCause() != net.neoforged.neoforge.event.TagsUpdatedEvent.UpdateCause.SERVER_DATA_LOAD) return;
-        load();
+        var server = net.neoforged.neoforge.server.ServerLifecycleHooks.getCurrentServer();
+        if (server != null) {
+            load(server.getResourceManager());
+        } else {
+            load();
+        }
         needsInject = true;
     }
 
